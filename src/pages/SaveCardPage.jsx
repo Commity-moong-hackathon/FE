@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
-import Layout from '../components/Layout';
+import Layout from '../components/Layout2';
 
 const PageWrapper = styled.div`
   padding: 16px;
