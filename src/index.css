@@ -1,33 +1,18 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@font-face {
-  font-family: 'CustomFont';
-  src: url('/src/assets/fonts/YourFont.woff2') format('woff2');
-}
-
-body {
-  font-family: 'CustomFont', sans-serif;
-}
-
 html,
 body {
+  font-family: sans-serif;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: #fff;
-  font-family: 'Noto Sans KR', sans-serif;
-  display: flex;
-  justify-content: center;
-  @apply flex justify-center;
+  width: 100%;
+  height: 100%;
+  max-width: 100vw;
 }
 
 #root {
-  width: 390px; /* iPhone 14 기준*/
+  width: 100%;
   height: 100vh;
-  margin: 0 auto;
   background-color: #ffffff;
   overflow-y: auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*추후 삭제*/
+  overflow-x: hidden;
 }
